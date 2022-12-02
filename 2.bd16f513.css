@@ -1,0 +1,152 @@
+a{
+    text-decoration: none;
+    width: 100%;
+ 
+}
+
+header {
+    color: #fff;
+}
+
+header div.q-toolbar {
+    background-color: #c4170c;
+}
+
+.q-toolbar .logo {
+    width: 5.8rem;
+    cursor: pointer
+}
+
+.q-toolbar .q-btn {
+    font-size: 1.8rem
+}
+
+header div.topic  h2{
+    margin: 0;
+    padding: 1rem;
+    background-color: #a7140a;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    transition: all 0.2s;
+    text-transform: uppercase    
+}
+
+
+.q-header .topic .sub-title:hover {
+    opacity: 0.7
+}
+
+.LayoutMain {
+    color: var(--text-dark);
+    background-color: var(--bg-light)
+}
+
+.LayoutMain .container {
+    width: 100%;
+    max-width: 1200px
+}
+
+.q-drawer .header[data-v-4160e390] {
+    padding: 2rem;
+    background-color: #eee
+}
+
+.q-drawer .header .img[data-v-4160e390] {
+    width: 5rem
+}
+
+.q-drawer .container[data-v-4160e390] {
+    padding-top: 1rem;
+    color: var(--text-dark)
+}
+
+.q-drawer .container .sub-title[data-v-4160e390] {
+    margin: 0;
+    padding: 2rem;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    text-align: center
+}
+
+.q-footer[data-v-197f7905] {
+    width: 100%
+}
+
+.q-footer .container[data-v-197f7905] {
+    color: #fff;
+    padding: 3rem;
+    padding-bottom: 0;
+    background-color: #c4170c
+}
+
+@media (max-width:768px) {
+    .q-footer .container[data-v-197f7905] {
+        justify-content: center
+    }
+}
+
+.q-footer .container .img[data-v-197f7905] {
+    width: 8rem;
+    padding: 2rem 0
+}
+
+.q-footer .container .text[data-v-197f7905] {
+    padding: 2rem 0;
+    font-size: 1.4rem
+}
+
+@media (max-width:768px) {
+    .q-footer .container .text[data-v-197f7905] {
+        font-size: 1.6rem;
+        text-align: center
+    }
+}
+
+.q-footer .container .text .click[data-v-197f7905] {
+    cursor: pointer
+}
+
+.q-footer .container .text .click[data-v-197f7905]:hover {
+    filter: contrast(0.8)
+}
+
+.q-footer .container .text .space[data-v-197f7905] {
+    padding: 0 1rem
+}
+
+.q-footer .baseboard[data-v-197f7905] {
+    padding: 2rem;
+    color: #eee;
+    font-size: 1.4rem;
+    text-align: center;
+    background-color: #a7140a
+}
+
+.scientific[data-v-197f7905] {
+    width: 1080px;
+    padding: 1rem;
+    max-width: 95vh
+}
+
+.scientific .title[data-v-197f7905] {
+    margin: 1rem 0;
+    font-weight: 500;
+    font-size: 2.3rem;
+    text-align: center;
+    line-height: 2.5rem
+}
+
+.scientific .link[data-v-197f7905] {
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    display: inline-block;
+    word-break: break-all
+}
+
+.q-page {
+    color: var(--text-dark) !important;
+    background-color: var(--bg-light) !important
+}
